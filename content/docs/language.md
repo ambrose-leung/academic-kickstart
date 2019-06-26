@@ -11,7 +11,7 @@ weight = 120
 math = false
 
 [menu.docs]
-    parent = "features"
+    parent = "customization"
     weight = 10
 +++
 

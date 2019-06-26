@@ -33,11 +33,11 @@
   url = "#support"
   weight = 40
 
-#[[main]]
-#  pre = "<i class=\"fas fa-address-card pr-1\" style=\"color: #00d1b2;\"></i>"
-#  name = "Widgets"
-#  url = "widgets/"
-#  weight = 40
+
+[[main]]
+  name = "Courses"
+  url = "courses/"
+  weight = 50
 
 [[main_right]]
   name = "<i class=\"fab fa-github-alt\" style=\"color: #333; font-size: 1rem; line-height: 1.25\"></i>"
@@ -57,6 +57,8 @@
   url = "docs/install/"
   weight = 30
 
+
+
 # Documentation
 
 [[docs]]
@@ -73,6 +75,22 @@
   name = "Create Content"
   weight = 30
   identifier = "content"
+
+[[docs]]
+  name = "Create Content subpage"
+  weight = 30
+  identifier = "contentsub"
+  parent = "content"
+
+[[docs]]
+  name = "Create Content subsubpage"
+  weight = 30
+  parent = "contentsub"
+
+[[docs]]
+  name = "Whatever"
+  weight = 30
+  identifier = "whatever"
 
 [[docs]]
   name = "Deployment"

@@ -10,6 +10,7 @@ math = true
 
 [menu.docs]
     parent = "features"
+    identifier = "customization"
     weight = 5
 +++
 
